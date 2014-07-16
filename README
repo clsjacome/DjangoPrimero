@@ -9,3 +9,6 @@ Si el servido inició sin problema, se puede navegar a cualquiera de las urls def
 a través de localhost:8000 ó 127.0.0.1:8000
 
 e.g. localhost:8000/alert
+
+admin user: jacome
+admin pwd: dumbpassword
