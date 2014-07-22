@@ -1,11 +1,11 @@
 Aplicación de demo de Django.
-En construción.
+En construcción.
 
 Para navegar, ir una terminal ir al folder raiz(primero) y correr:
     >> python manage.py runserver
     $inicia el servidor de Django
 
-Si el servido inició sin problema, se puede navegar a cualquiera de las urls definidas en primero/urls.py
+Si el servidor inició sin problema, se puede navegar a cualquiera de las urls definidas en primero/urls.py
 a través de localhost:8000 ó 127.0.0.1:8000
 
 e.g. localhost:8000/alert
