@@ -30,14 +30,14 @@ def hours_ahead(request, offset):
     html = "<html><body>In %s hour(s), it will be %s.</body></html>" % (offset, dt)
     return HttpResponse(html)
 
-def displayThankForm(request, current_secction, person_name, company, ordered_warranty):
+def displayThankForm(request, current_section, person_name, company, ordered_warranty):
     if str(ordered_warranty) == "T":
         ordered_warranty = True
     else:
         ordered_warranty = False
     contextVariables = {'person_name':str(person_name), 'company':str(company), 'ordered_warranty':ordered_warranty,
                  'ship_date':datetime.datetime.now()+datetime.timedelta(hours=48),
-                 'current_section':str(current_secction)}
+                 'current_section':str(current_section)}
 
     """Forma larga de hacer el render
     from django.template import Template, Context
